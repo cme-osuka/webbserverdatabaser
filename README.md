@@ -8,7 +8,7 @@ I hope you will find this repository useful during this course.
 ### Node related
 - [Node.js dokumentation](https://nodejs.org/en/docs/)
 - [Introduction to Node.js](https://nodejs.dev/learn/introduction-to-nodejs)
-
+- [Node.js Cheatsheet (ZTM)](https://zerotomastery.io/cheatsheets/node-js-cheat-sheet/)
 ### VS Code plugins
 - Bracket Pair Colorizer 2 - Makes it easier to see the bracket pairs by colorizing them
 - ES7+ React/Redux/React-Native snippets - A collection of useful code snippets, by dsznajder
