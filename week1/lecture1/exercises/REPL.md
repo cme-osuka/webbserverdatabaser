@@ -10,7 +10,7 @@ Nu ska vi bli lite mer bekanta med Node's REPL och lära oss hitta dessa instruk
 
 Kommandon:
 1. Testa köra `.help`, vad skriver den ut?
-2. Testa skriva en loop som .break / clear (multiline)
+2. Testa en multiline expression och avbryt den med .break / clear (multiline)
 3. Testa spara din REPL-kod i en fil med .save [filename]
 4. Testa ladda filen du sparat med .load [filename]
 5. Testa avsluta programmet med .exit 
