@@ -1,6 +1,6 @@
 # Läs och skriv till samma JSON-fil
 
-1. Skapa en en .json-fil, exempelvis `customers.json` med innehållet `{ customers: [] }`
+1. Skapa en en .json-fil, exempelvis `customers.json` med innehållet `{ "customers": [] }`
 
 2. Skapa en js-fil med namnet `customers.js` och importera `fs` med hjälp av `require()`
 
