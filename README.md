@@ -9,6 +9,22 @@ I hope you will find this repository useful during this course.
 - [Node.js dokumentation](https://nodejs.org/en/docs/)
 - [Introduction to Node.js](https://nodejs.dev/learn/introduction-to-nodejs)
 - [Node.js Cheatsheet (ZTM)](https://zerotomastery.io/cheatsheets/node-js-cheat-sheet/)
+
+### Node.js frameworks
+- Express.js
+- LoopBack*
+- Koa.js (Från skaparna av Express)
+- Meteor
+- Hapi
+- Strapi* (var tidigare byggt på Express, nu Koa)
+- Fastify
+- Feathers*
+- Keystone.js*
+- Nest.js*
+- Sails*
+m.fl.
+
+* byggt på Express
 ### VS Code plugins
 - Bracket Pair Colorizer 2 - Makes it easier to see the bracket pairs by colorizing them
 - ES7+ React/Redux/React-Native snippets - A collection of useful code snippets, by dsznajder
