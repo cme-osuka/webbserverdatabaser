@@ -106,7 +106,7 @@ Här kommer vi ändra och lägga till lite i konfigurationen, bland annat `knex_
  development: {
     client: 'sqlite3',
     connection: {
-      filename: path.join(__dirname, 'db.sqlite3')
+      filename: './db.sqlite3'
     },
     migrations: {
       tableName: 'knex_migrations'
@@ -122,7 +122,7 @@ Det berättar för vår databas att den behöver skapa en tabell som hanterar mi
 Här ser processen ungefär likadan ut som förut, fast istället för att vi skapar databasen med `new sqlite3.Database()` så använder vi knex för det:
 
 ```js
-const config = require("./knexfile");
+const knexConfig = require("./knexfile");
 const knex = require("knex");
 // För att skapa en ny instans av Knex:
 const db = knex(knexConfig["development"])
