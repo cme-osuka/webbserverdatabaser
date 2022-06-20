@@ -12,8 +12,13 @@ const io = new Server({
   }
 });
 
+io.use((socket, next) => {
+  console.log("Kördes först!")
+  next();
+})
+
 io.on("connection", (socket) => {
-  console.log(`Socket med id't ${socket.id} har anslutit`)
+  console.log("Kördes sen!")
 
   // Rooms
   // https://socket.io/docs/v4/rooms/

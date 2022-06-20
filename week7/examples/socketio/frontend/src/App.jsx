@@ -8,7 +8,7 @@ function App() {
   const [socketId, setSocketId] = useState("");
 
   useEffect(() => {
-    socket = io("https://strengthened-decisive-caboc.glitch.me/");
+    socket = io("localhost:4000");
 
     socket.on("connect", () => {
       console.log("Ansluten till servern");
