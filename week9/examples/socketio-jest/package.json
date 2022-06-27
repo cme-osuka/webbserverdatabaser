@@ -1,0 +1,19 @@
+{
+  "name": "socketio-jest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "socket.io": "^4.5.1",
+    "socket.io-client": "^4.5.1"
+  },
+  "devDependencies": {
+    "jest": "^28.1.1"
+  }
+}
