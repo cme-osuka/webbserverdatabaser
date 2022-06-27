@@ -1,3 +1,6 @@
+/**
+ * @module knex
+ */
 const knex = require("../data/database");
 
 // Här har jag skapat ett gäng funktioner som en
